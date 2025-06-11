@@ -614,8 +614,12 @@
       "Root"
     ],
     [
+      "2b969d1c-25b2-4e80-8c5b-aa4dca889ca0",
+      "MCU,Power,Comm"
+    ],
+    [
       "d28d3f47-b0c1-4fbb-bdab-a8b85a0388d0",
-      "MCU, Power, Communication"
+      "Sensors and Perhperials"
     ]
   ],
   "text_variables": {}
