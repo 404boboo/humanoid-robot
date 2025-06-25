@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ShopieLibrary")(type "KiCad")(uri "${KIPRJMOD}/ShopieLibrary.pretty")(options "")(descr ""))
+)
