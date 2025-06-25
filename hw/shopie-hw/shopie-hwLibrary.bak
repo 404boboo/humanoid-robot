@@ -380,8 +380,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "ShopieLibrary:BMS_4S_40A"
+			(at -0.254 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +410,7 @@
 		(symbol "BMS_4S_Module_1_1"
 			(rectangle
 				(start -7.62 6.096)
-				(end 7.62 -10.16)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type solid)
@@ -466,7 +466,7 @@
 			(pin power_in line
 				(at -10.16 -3.81 0)
 				(length 2.54)
-				(name "8V4"
+				(name "4V2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -481,82 +481,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 -7.62 0)
-				(length 2.54)
-				(name "4V2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at 0 -12.7 90)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 3.81 180)
-				(length 2.54)
-				(name "P+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "P-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -3.81 180)
-				(length 2.54)
-				(name "12V6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -572,16 +500,52 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -7.62 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
-				(name "14V8"
+				(name "16V8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "12V6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "8V4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
