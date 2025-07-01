@@ -3033,6 +3033,16 @@
 		)
 		(uuid "a225c5ce-7644-44c0-8a05-7982c37c850c")
 	)
+	(text "0.5Ohms Shunt is used for a total of 100A measureable current\nImax = 50mV / 0.0005Ohms = 100A"
+		(exclude_from_sim no)
+		(at 238.76 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3181b56-f961-49e7-b40c-a2a00230a410")
+	)
 	(junction
 		(at 158.75 49.53)
 		(diameter 0)

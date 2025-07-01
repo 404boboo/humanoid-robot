@@ -430,14 +430,14 @@
 			(pin power_in line
 				(at -10.16 3.81 0)
 				(length 2.54)
-				(name "B+"
+				(name "16V8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -445,10 +445,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "B-"
+				(name "12V6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -466,14 +466,14 @@
 			(pin power_in line
 				(at -10.16 -3.81 0)
 				(length 2.54)
-				(name "4V2"
+				(name "8V4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -491,7 +491,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -502,7 +502,25 @@
 			(pin power_in line
 				(at 10.16 3.81 180)
 				(length 2.54)
-				(name "16V8"
+				(name "B+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "B-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -518,9 +536,9 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 0 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
-				(name "12V6"
+				(name "4V2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -535,27 +553,200 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 10.16 -3.81 180)
-				(length 2.54)
-				(name "8V4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
+	
+  (symbol "BSC016N06NS" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (id 0) (at -2.54 0.635 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BSC016N06NS" (id 1) (at 10.795 -6.35 90.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BSC016N06NS:INF-PG-TDSON-8-FL" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Infineon Technologies" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            N-Channel 60 V 30A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8 FL\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N06NS/Infineon/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "BSC016N06NS" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/BSC016N06NS/Infineon/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BSC016N06NS_0_0"
+      (polyline
+        (pts (xy 2.032 -0.254) (xy 2.032 -2.54)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.032 -2.54) (xy 2.032 -4.826)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -0.762) (xy 5.08 -0.762)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 5.08 -0.762) (xy 5.08 0.0)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy 5.08 -4.318)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 5.08 -4.318) (xy 5.08 -5.08)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -4.318) (xy 5.08 -4.318)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.032 -2.54) (xy 0.0 -2.54)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -0.254) (xy 2.54 -0.762)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -0.762) (xy 2.54 -1.27)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -2.032) (xy 2.54 -2.54)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 2.54 -3.048)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -3.81) (xy 2.54 -4.318)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -4.318) (xy 2.54 -4.826)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 5.08 -2.54)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -2.54)
+          (xy 4.064 -3.048)
+          (xy 4.064 -2.032)
+          (xy 2.54 -2.54)
+        )
+        (stroke (width 0.1778)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 7.62 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 0.0) (xy 7.62 0.0)) (stroke (width 0.254))
+      )
+      (text "5,6,7,8" (at 5.715 5.715 900)
+        (effects (font (size 1.27 1.27)) (justify top right))
+      )
+      (polyline
+        (pts (xy 7.62 -5.08) (xy 7.62 -1.778)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 6.604 -1.778) (xy 7.62 -1.778)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 7.62 -1.778) (xy 8.636 -1.778)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 7.62 -1.778) (xy 6.604 -3.302)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 8.636 -3.302) (xy 7.62 -1.778)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 7.62 -1.778) (xy 7.62 0.0)) (stroke (width 0.1778))
+      )
+      (polyline
+        (pts (xy 6.604 -3.302) (xy 8.636 -3.302)) (stroke (width 0.1778))
+      )
+      (text "1,2,3" (at 5.715 -5.715 900)
+        (effects (font (size 1.27 1.27)) (justify top right))
+      )
+      (pin passive line (at 5.08 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 -2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 5.08 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 5.08 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 5.08 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 5.08 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
+
 	(symbol "HAKRC_Blehli32_ESC40A"
 		(exclude_from_sim no)
 		(in_bom yes)

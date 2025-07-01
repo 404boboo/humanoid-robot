@@ -6750,7 +6750,7 @@
 	)
 	(text "VCharger is input going to BMS. The LTC needs to know \ncurrent going in and outisde of the battery\n"
 		(exclude_from_sim no)
-		(at 81.026 104.14 0)
+		(at 80.772 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6779,16 +6779,6 @@
 		)
 		(uuid "7ba0f469-5b3b-48ef-92bc-689ccfc5555a")
 	)
-	(text "0.5Ohms Shunt is used for a total of 100A measureable current\nImax = 50mV / 0.0005Ohms = 100A"
-		(exclude_from_sim no)
-		(at 80.01 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7c63ad27-24f3-4262-b19b-430c919591e0")
-	)
 	(text "USB App note AN4879\n"
 		(exclude_from_sim no)
 		(at 279.146 77.978 90)
@@ -6802,7 +6792,7 @@
 	)
 	(text "(Take V_USB_BAT before the switch)"
 		(exclude_from_sim no)
-		(at 79.248 115.57 0)
+		(at 77.216 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6812,7 +6802,7 @@
 	)
 	(text "VBUS from USB connector (nom. +5V) "
 		(exclude_from_sim no)
-		(at 74.93 107.95 0)
+		(at 75.438 107.95 0)
 		(effects
 			(font
 				(size 1.5 1.5)
