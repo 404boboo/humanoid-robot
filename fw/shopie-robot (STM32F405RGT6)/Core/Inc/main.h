@@ -63,6 +63,8 @@ void Error_Handler(void);
 #define BMP388_EXTI_GPIO_Port GPIOC
 #define TMF8801_EN_Pin GPIO_PIN_0
 #define TMF8801_EN_GPIO_Port GPIOC
+#define MOSFETG_Pin GPIO_PIN_1
+#define MOSFETG_GPIO_Port GPIOC
 #define ICM_EN_Pin GPIO_PIN_4
 #define ICM_EN_GPIO_Port GPIOC
 #define ICM_EXTI_Pin GPIO_PIN_5

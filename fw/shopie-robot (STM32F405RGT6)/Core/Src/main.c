@@ -730,7 +730,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14|TMF8801_EN_Pin|ICM_EN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14|TMF8801_EN_Pin|MOSFETG_Pin|ICM_EN_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : BMP388_EXTI_Pin ICM_EXTI_Pin */
   GPIO_InitStruct.Pin = BMP388_EXTI_Pin|ICM_EXTI_Pin;
@@ -738,8 +738,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PC14 TMF8801_EN_Pin ICM_EN_Pin */
-  GPIO_InitStruct.Pin = GPIO_PIN_14|TMF8801_EN_Pin|ICM_EN_Pin;
+  /*Configure GPIO pins : PC14 TMF8801_EN_Pin MOSFETG_Pin ICM_EN_Pin */
+  GPIO_InitStruct.Pin = GPIO_PIN_14|TMF8801_EN_Pin|MOSFETG_Pin|ICM_EN_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
