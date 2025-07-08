@@ -2535,7 +2535,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
+			(property "Reference" "U303"
 				(at 36.322 6.35 0)
 				(effects
 					(font
@@ -2598,8 +2598,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "TMF8801-1BM_0_1"
-				(pin unspecified line
+			(symbol "TMF8801-1BM_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 38.1 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
 					(at 0 0 0)
 					(length 7.62)
 					(name "VDDC"
@@ -2617,7 +2628,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "GNDC"
@@ -2635,7 +2646,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -5.08 0)
 					(length 7.62)
 					(name "GPIO0"
@@ -2653,7 +2664,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -7.62 0)
 					(length 7.62)
 					(name "INT"
@@ -2671,7 +2682,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "SCL"
@@ -2689,7 +2700,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "SDA"
@@ -2707,7 +2718,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 45.72 0 180)
 					(length 7.62)
 					(name "VDDV"
@@ -2725,7 +2736,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 45.72 -2.54 180)
 					(length 7.62)
 					(name "GNDV"
@@ -2743,7 +2754,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 45.72 -5.08 180)
 					(length 7.62)
 					(name "GPIO1"
@@ -2761,7 +2772,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 45.72 -7.62 180)
 					(length 7.62)
 					(name "EN"
@@ -2779,7 +2790,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 45.72 -10.16 180)
 					(length 7.62)
 					(name "GND"
@@ -2797,7 +2808,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 45.72 -12.7 180)
 					(length 7.62)
 					(name "VDD"
@@ -2813,19 +2824,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "TMF8801-1BM_1_1"
-				(rectangle
-					(start 7.62 5.08)
-					(end 38.1 -17.78)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -5075,7 +5073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:RC0603FR-074K7L"
 			(at 207.01 85.09 0)
 			(effects
 				(font
@@ -5084,7 +5082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-074K7L_C99782.pdf"
 			(at 207.01 85.09 0)
 			(effects
 				(font
@@ -5093,7 +5091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC0603FR-074K7L"
 			(at 207.01 85.09 0)
 			(effects
 				(font
@@ -5405,7 +5403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B104KBCNNNC"
 			(at 261.3152 52.07 0)
 			(effects
 				(font
@@ -5414,7 +5412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf"
 			(at 260.35 48.26 0)
 			(effects
 				(font
@@ -5602,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B104KBCNNNC"
 			(at 35.8648 24.13 0)
 			(effects
 				(font
@@ -5611,7 +5609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf"
 			(at 36.83 27.94 0)
 			(effects
 				(font
@@ -5720,7 +5718,7 @@
 		(dnp no)
 		(uuid "562ae5ea-32e7-4601-992d-7348e9656f96")
 		(property "Reference" "R302"
-			(at 199.39 49.53 0)
+			(at 200.66 49.022 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5737,7 +5735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:RC0603FR-074K7L"
 			(at 196.85 52.07 0)
 			(effects
 				(font
@@ -5746,7 +5744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-074K7L_C99782.pdf"
 			(at 196.85 52.07 0)
 			(effects
 				(font
@@ -5755,7 +5753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC0603FR-074K7L"
 			(at 196.85 52.07 0)
 			(effects
 				(font
@@ -5855,7 +5853,7 @@
 		(dnp no)
 		(uuid "5eac5a90-5cf6-477c-94d7-596ecb9dea57")
 		(property "Reference" "R301"
-			(at 190.5 50.8 0)
+			(at 189.23 50.546 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5872,7 +5870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:RC0603FR-074K7L"
 			(at 194.31 52.07 0)
 			(effects
 				(font
@@ -5881,7 +5879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-074K7L_C99782.pdf"
 			(at 194.31 52.07 0)
 			(effects
 				(font
@@ -5890,7 +5888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC0603FR-074K7L"
 			(at 194.31 52.07 0)
 			(effects
 				(font
@@ -5939,7 +5937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B104KBCNNNC"
 			(at 71.4248 52.07 0)
 			(effects
 				(font
@@ -5948,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf"
 			(at 72.39 55.88 0)
 			(effects
 				(font
@@ -6008,7 +6006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B105KBFNNNE"
 			(at 265.1252 95.25 0)
 			(effects
 				(font
@@ -6017,7 +6015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf"
 			(at 264.16 91.44 0)
 			(effects
 				(font
@@ -6069,7 +6067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R5"
+		(property "Value" "00R5"
 			(at 254 91.4399 0)
 			(effects
 				(font
@@ -6078,7 +6076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:WSLP3921L5000FEA"
 			(at 251.46 90.17 0)
 			(effects
 				(font
@@ -6087,7 +6085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2410121736_Vishay-Intertech-WSLP3921L5000FEA_C413491.pdf"
 			(at 251.46 90.17 0)
 			(effects
 				(font
@@ -6096,7 +6094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "WSLP3921L5000FEA"
 			(at 251.46 90.17 0)
 			(effects
 				(font
@@ -6212,7 +6210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B104KBCNNNC"
 			(at 263.8552 34.29 0)
 			(effects
 				(font
@@ -6221,7 +6219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf"
 			(at 262.89 30.48 0)
 			(effects
 				(font
@@ -6279,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B104KBCNNNC"
 			(at 70.8152 31.75 0)
 			(effects
 				(font
@@ -6288,7 +6286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf"
 			(at 69.85 27.94 0)
 			(effects
 				(font
@@ -6645,7 +6643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B104KBCNNNC"
 			(at 150.8252 46.99 0)
 			(effects
 				(font
@@ -6654,7 +6652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf"
 			(at 149.86 43.18 0)
 			(effects
 				(font
@@ -6697,7 +6695,7 @@
 		(dnp no)
 		(uuid "9969e9a8-65c7-49bb-bc0a-87a550f854a6")
 		(property "Reference" "R303"
-			(at 204.47 53.34 0)
+			(at 206.248 53.34 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6714,7 +6712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:RC0603FR-074K7L"
 			(at 200.66 52.07 0)
 			(effects
 				(font
@@ -6723,7 +6721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-074K7L_C99782.pdf"
 			(at 200.66 52.07 0)
 			(effects
 				(font
@@ -6732,7 +6730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC0603FR-074K7L"
 			(at 200.66 52.07 0)
 			(effects
 				(font
@@ -7108,7 +7106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:RC0603FR-074K7L"
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -7117,7 +7115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161100_YAGEO-RC0603FR-074K7L_C99782.pdf"
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -7126,7 +7124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC0603FR-074K7L"
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -7519,7 +7517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B104KBCNNNC"
 			(at 177.4952 40.64 0)
 			(effects
 				(font
@@ -7528,7 +7526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -7723,7 +7721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:CL21B104KBCNNNC"
 			(at 159.7152 46.99 0)
 			(effects
 				(font
@@ -7732,7 +7730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf"
 			(at 158.75 43.18 0)
 			(effects
 				(font
