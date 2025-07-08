@@ -2075,7 +2075,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 16.002 11.176 0)
+				(at 12.954 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2083,14 +2083,14 @@
 				)
 			)
 			(property "Value" "HAKRC_Blehli32_ESC40A"
-				(at 14.224 -11.176 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ShopieLibrary:HAKRC_Blehli32_ESC40A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2139,7 +2139,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2175,7 +2175,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2193,7 +2193,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2229,7 +2229,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2283,7 +2283,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2294,14 +2294,14 @@
 				(pin input line
 					(at -2.54 -12.7 90)
 					(length 2.54)
-					(name "BATT+"
+					(name "BATT-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2319,7 +2319,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2337,7 +2337,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2348,14 +2348,14 @@
 				(pin input line
 					(at 1.27 -12.7 90)
 					(length 2.54)
-					(name "BATT-"
+					(name "BATT+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2373,7 +2373,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2391,7 +2391,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2409,7 +2409,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2427,7 +2427,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2445,7 +2445,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2463,7 +2463,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2481,7 +2481,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2517,7 +2517,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3569,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 109.22) (xy 58.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f4b4a4-cb8d-4ff7-94a5-e53f2ca135ff")
+	)
+	(wire
+		(pts
 			(xy 72.39 66.04) (xy 53.34 66.04)
 		)
 		(stroke
@@ -3746,6 +3756,16 @@
 			(type default)
 		)
 		(uuid "75ca883f-bc25-471c-b3b8-5d49390aec6b")
+	)
+	(wire
+		(pts
+			(xy 60.96 111.76) (xy 60.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76814585-9610-4364-a9c7-808cf5427d0b")
 	)
 	(wire
 		(pts
@@ -4199,6 +4219,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 105.41) (xy 62.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16295df-8826-494e-aaf7-ceb0bb59b488")
+	)
+	(wire
+		(pts
 			(xy 198.12 39.37) (xy 200.66 39.37)
 		)
 		(stroke
@@ -4226,16 +4256,6 @@
 			(type default)
 		)
 		(uuid "e11ebe89-e4c4-4e1e-a23b-d0dfb778cce0")
-	)
-	(wire
-		(pts
-			(xy 58.42 109.22) (xy 62.23 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37a7eb3-d9cf-4338-a3e8-afce3149dc56")
 	)
 	(wire
 		(pts
@@ -4276,16 +4296,6 @@
 			(type default)
 		)
 		(uuid "e9728a5d-bc6a-4667-b7bd-61d6a124cc78")
-	)
-	(wire
-		(pts
-			(xy 58.42 105.41) (xy 60.96 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec0ba45e-0237-488b-837e-0a0dc71d8a6c")
 	)
 	(wire
 		(pts
@@ -5636,7 +5646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 105.41 90)
+		(at 60.96 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5644,7 +5654,7 @@
 		(dnp no)
 		(uuid "531e3413-6e0f-4222-98e1-24cf97bdca49")
 		(property "Reference" "#PWR045"
-			(at 67.31 105.41 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 65.278 103.378 0)
+			(at 62.992 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 105.41 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 105.41 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 105.41 0)
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +6783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShopieLibrary:HAKRC_Blehli32_ESC40A"
 			(at 45.72 106.68 0)
 			(effects
 				(font
@@ -6800,70 +6810,70 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "10"
 			(uuid "e35f6910-a6e2-4f7f-91fd-9a95029819d8")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "cfde02a5-c405-4c23-b8c0-50204b434f91")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "1804372a-3746-47b9-a3d7-fb33ac0496a3")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "f913df23-2ba0-48ad-8f58-2c7f203013ff")
 		)
 		(pin ""
 			(uuid "b5513ebd-90e2-492d-91cd-26aa39e4f5e7")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "19604fe2-66e9-491e-b28b-877d3a6b6253")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "34ed4264-6e62-410d-8398-677b83473a5c")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "c211fd5e-f48d-4ad9-b86b-2729a3b93932")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "beebb042-36fd-405b-b17d-91b908d7db56")
 		)
-		(pin ""
+		(pin "11"
 			(uuid "765953bf-b1c0-4b02-bca9-c5bfff8708c2")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "f8829eca-1d34-438b-82e0-593323e6f020")
 		)
-		(pin ""
+		(pin "12"
 			(uuid "a7a8ef23-310d-446b-8f31-96806d7c95a7")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "0b4e9254-e2fc-4305-bac2-b3185db10910")
 		)
-		(pin ""
+		(pin "9"
 			(uuid "25ee415c-ff6c-4d6c-ae2d-4499cad63757")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "82acf0ad-46d7-477c-afd0-92e1d08e1c61")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "3cd8741f-9c6d-41b5-a4e5-afff8be18bd3")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "6864d411-1d56-4495-9870-1ff78823c44e")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "899a89b7-7ecc-4908-a816-92f60b709e25")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "d32b2e82-704b-4ba2-a601-5b72ce05be6b")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "46467891-3095-46cf-8506-b3356ee05010")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "b6b9b39a-39d8-4576-8a5f-e44f4d2888a8")
 		)
-		(pin ""
+		(pin "13"
 			(uuid "1a2f32d5-1107-4b63-afb5-d38bd750a826")
 		)
 		(instances
@@ -6877,7 +6887,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 62.23 109.22 270)
+		(at 62.23 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6885,7 +6895,7 @@
 		(dnp no)
 		(uuid "9f01c6d5-4771-499e-a7c8-f8813643fe6a")
 		(property "Reference" "#PWR044"
-			(at 58.42 109.22 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +6904,7 @@
 			)
 		)
 		(property "Value" "V_USB_BAT"
-			(at 58.674 111.506 90)
+			(at 58.674 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +6922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +6931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 62.23 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
